@@ -1,0 +1,111 @@
+.outer-container {
+  height: 97vh;
+  width: 600px;
+  margin: 10px auto;
+  border: 1px solid black;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.name-container {
+  display: inline-block;
+}
+
+.pokemon-image {
+  height: 40vh;
+  width: 40vh;
+  margin: -7vh 0vh -5vh 0vh;
+}
+
+.pokemon-name {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.pokemon-id {
+  letter-spacing: 15px;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
+
+.abilities-header,
+.description-header {
+  letter-spacing: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  margin: 30px 30px 5px 30px;
+  height: 50vh;
+}
+
+.generatePokemon {
+  font-weight: 900;
+  border-radius: 50px;
+  height: 5vh;
+  width: 50vh;
+  letter-spacing: 5px;
+}
+
+.generatePokemon:hover {
+  background-color: black;
+  color: white;
+}
+
+.generatePokemon:active {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+}
+
+.generatePokemon,
+.loading {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-generate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-container,
+.abilities-container {
+  border: 1px solid black;
+  width: 34vh;
+  height: 34vh;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.description-abilities-container {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-text {
+  margin: 20px 0px 10px 0px;
+}
+
+.loading {
+  font-size: 100px;
+}
+
+.moves {
+  width: 32vh;
+  height: 27vh;
+  overflow: auto;
+}

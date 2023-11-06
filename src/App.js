@@ -1,11 +1,12 @@
 import React from "react";
-import "./App.css";
-import PokedexCard from './PokedexCard'
+import PokedexCard from "./PokedexCard";
 
 function App() {
   return (
-    <PokedexCard/>
-  )
+    <div className="App">
+      <PokedexCard />
+    </div>
+  );
 }
 
 export default App;
