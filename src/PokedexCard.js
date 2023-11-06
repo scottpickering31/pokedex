@@ -53,7 +53,7 @@ function PokedexCard() {
         </div>
         <div>
           <button className="generatePokemon" onClick={handleGenerateNewPoke}>
-            Generate New Pokemon
+            Generate Pokemon
           </button>
         </div>
         <div className="description-abilities-container">
